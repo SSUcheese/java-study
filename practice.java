@@ -101,8 +101,42 @@ class FindPrimeNumber {
 
 //문제 06 - 3.1, 3.2
 
-//문제 
+//문제 07 - 1.1
 
+class Triangle {
+    double height;
+    double bottom;
+
+    public Triangle(double ht, double bt) {
+        height = ht;
+        bottom = bt;
+    }
+
+    public void setBottom(double bt) {
+        bottom = bt;
+    }
+
+    public void setHeight(double ht) {
+        height = ht;
+    }
+
+    public double area() {
+        return (bottom * height) / 2;
+    }
+}
+
+class Use {
+    public static void main(String[] args) {
+        Triangle tr = new Triangle(5.0, 4.0);
+
+        System.out.println(tr.area());
+
+        tr.setBottom(10.0);
+        tr.setHeight(4.0);
+
+        System.out.println(tr.area());
+    }
+}
 
 
 
