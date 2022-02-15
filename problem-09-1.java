@@ -2,7 +2,7 @@ class Point {
     int xPos, yPos;
     public Point(int x, int y) {
         xPos = x;
-        xPos = y;
+        yPos = y;
     }
     public void showPointInfo() {
         System.out.println(xPos + "," + yPos);
